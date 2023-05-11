@@ -58,22 +58,27 @@
         background-color: beige;
     }
     
-    /* INICIO POSTAGEM 1 */
+    /* INICIO AREA DE POSTAGENS */
 
-    #titulo-1{
+    #area-principal{
         width: 920px; /* define o espaco ocupado na pagina */
         margin: 0 auto; /* 1° valor para margens superiores e inferiores; 2° valor para margens laterais*/
         
     }
-    /* FIM POSTAGEM 1*/
     
-    /* INICIO MENU LATERAL */
-    #titulo-lateral{
+    #area-postagens{
+        width: 660px;
+        float: left;
+}
+
+    #area-lateral{
         float: right;
         
-    }
 
-    /* FIM MENU LATERAL */
+    }
+    
+    /* FIM AREA DE POSTAGENS */
+    
      </style>
 
 </head>
@@ -97,13 +102,23 @@
     <!- FIM DIVS DO TOPO->
     
     <!- INICIO DIV BODY->
-    <div id="titulo-1">
-        <h3> Titulo da postagem 1 </h3>
-        <h5>postado em 11 de maio de 2023</h5>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNnfvj--cFNFHCCdPaGRd7WdOhPuoAm30J2A&usqp=CAU" width="500">
+    
+    <div id="area-principal">
+        
+        <div id="area-postagens">
+            <h3> Titulo da postagem 1 </h3>
+            <h5>postado em 11 de maio de 2023</h5>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNnfvj--cFNFHCCdPaGRd7WdOhPuoAm30J2A&usqp=CAU" width="500">
+        
+            <div id="area-lateral">
+                <h4>Postagens recentes</h4>
+                    
+            </div>
+        
+        </div>  
+        
+        
     </div>
-
-    <div id="titulo-lateral"><h4>Postagens recentes</h4></div>
 
     <!- FIM DIV BODY ->
 </body>
