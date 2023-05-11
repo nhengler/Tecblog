@@ -7,59 +7,91 @@
     <title>TecBlog</title>
     <style type=text/css> 
 
+    /* INICIO TOPO DO SITE */
     #cabecalho{
         background-color: orange;
         text-align: center;
-        padding: 30;
+        padding: 10;
     }
 
-    
     #titulo{
         padding: 20;
-        margin: 30;
+        color: gray;
     }
     
     #menu{
-        padding: 30;
-        margin: 30;
+        padding: 10px;
     }
     
-    body{
+     body{
         font-size: 16px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         background-color: beige;
     
-        }
-
+    }
+    /* FIM TOPO DO SITE */
+    
+    /* INICIO FORMATACAO GERAL */
+    
+    a{
+        text-decoration: none; /* remove o _ padrão do link */
+    }
+    
     a:link{
         color: white;
+        padding: 10px;
     }
     
     a:visited{
          color: white;
+         padding: 10px;
     }
+    
+    a:hover{
+        background-color: white;
+        color: orange;
+    }
+
+    .branco{
+        color: white;
+
+    }
+    
+    h3{
+        color: orange;
+    }
+
     
     </style>
 
 </head>
 
 <body>
- 
+    <!- DIVS DO TOPO ->
     <div id="cabecalho">
 
         <div id="titulo">
-            <h1><strong>TecBlog</strong></h1>
+            <h1><strong>Tec<span class="branco">Blog</span></strong></h1>
             
             <div id="menu">
-                <a href="">Home | </a>
-                <a href="">Jogos | </a>
-                <a href="">Celulares | </a>
-                <a href="">Informatica | </a>
+                <a href="">Home  </a>
+                <a href="">Jogos  </a>
+                <a href="">Celulares  </a>
+                <a href="">Informatica  </a>
             </div>
         
         </div>
-
+     </div>
+    <!- FIM DIVS DO TOPO->
+    
+    <!- INICIO DIV BODY->
+    <div id="titulo-1">
+        <h3> Titulo da postagem 1 </h3>
+        <h5>postado em 11 de maio de 2023</h5>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNnfvj--cFNFHCCdPaGRd7WdOhPuoAm30J2A&usqp=CAU" width="500">
     </div>
+
+    <div id="titulo-lateral"><h4>Postagens recentes</h4></div>
 
 </body>
 
